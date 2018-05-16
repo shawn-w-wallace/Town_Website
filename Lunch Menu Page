@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Town Menu Page</title>
+      <link rel="stylesheet" href="fonts/stylesheet.css"/>
+   </head>
+   <body>
+      <div id="grad1">
+         <!-- Page Container -->
+         <div id="container">
+            <!-- Welcome message and company logo. -->
+            <center><img src="images/townlogo.PNG" alt="Town Logo"></center>
+            <!-- Navigation -->
+            <nav>
+               <ul>
+                  <li><a href="index.html" style="font-family: 'majesti_bannerbook_italic';">Home</a></li>
+                  <li><a class="active" href="menu.html" style="font-family: 'majesti_bannerbook_italic';">Menu</a></li>
+                  <li><a href="experience.html" style="font-family: 'majesti_bannerbook_italic';">Town Experience</a></li>
+                  <li><a href="contactus.html" style="font-family: 'majesti_bannerbook_italic';">Contact Us</a></li>
+               </ul>
+            </nav>
+            <!-- Menu Container -->
+            <div class="wrapper">
+              <!-- Banner Image -->
+               <center><img src="images/lunchbannercrop.jpg" alt="Lunch" width="890" height="200"></center>
+               <!-- MenuNavigation -->
+               <div class="menu">
+                  <h2>
+                     <center style="font-family: 'majesti_bannerbook_italic'; color:white;">Menu</center>
+                  </h2>
+                  <ol>
+                     <dl><a href="menu.html" style="font-family: 'majesti_bannerbook_italic';">Dinner Menu</a></dl>
+                     <dl><a class="active" href="menulunch.html" style="font-family: 'majesti_bannerbook_italic';">Lunch Menu</a></dl>
+                     <dl><a href="menucocktails.html" style="font-family: 'majesti_bannerbook_italic';">Cocktails/Beer</a></dl>
+                     <dl><a href="menuwine.html" style="font-family: 'majesti_bannerbook_italic';">Wine List</a></dl>
+                  </ol>
+                  <!-- Menu Text -->
+                  <address>
+                     <center style="font-family: 'majesti_bannerbook_italic'; color:rgb(190, 30, 45);">Lunch menu changes daily based availability of local ingredients. Menu below is for example only.</center>
+                  </address>
+                  <div class="menuitems2" style="font-family: athelas, serif; font-style: normal; font-weight: 400; color:white;">
+                     <p><strong>Soup Today: </strong>
+                        <br />Carrot Kabocha cup $4 bowl $6
+                     </p>
+                     <p><strong>Salad: </strong><br />
+                        MA`O Organic Lettuces, Pancetta, Grape Tomato, Manchego, Walnuts $8.5<br />
+                        Arugula, Beets, Orange, Mint, Cucumber, Chickpeas, Mascarpone $8.5<br />
+                        A’u Ku, Local Vegetables, Roasted Tomato Vinaigrette $15<br />
+                        Pan-Roasted Chicken Breast, Polenta, Bitter Greens $16<br />
+                        The Big Salad $12.5 <br />
+                        *add fresh fish or chicken to any salad $5
+                     </p>
+                     <p><strong>Frito: </strong>
+                        <br />Walu Brandade, Okra, Onion, Fried Pork Ribs, Malt Aioli $7.5<br />
+                     </p>
+                     <p><strong>Antipasti: </strong>
+                        <br />Smashed Potato, Long Beans, Roasted Eggplant $8<br />
+                        Black Mussels, Fennel, Pastina, Tomato, cinzano Broth $11<br />
+                     </p>
+                     <p><strong>Sandwiches:</strong>
+                        <br />Mushroom &amp; Lentil Patty, Pickles, Tomato, Feta, Tatsoi, Telera Roll $11<br />
+                        Shinsato Pork Sandwich, Caramelized Onion, Mustard Aioli, Swiss, Rye $12<br />
+                        Kuahiwi Grass-Fed Hamburger, Potato Roll $13.5<br />
+                        *add cheese $1 add bacon $1<br />
+                        *all sandwiches above served with MA’O greens or french fries
+                     </p>
+                     <p><strong>Pasta:</strong>
+                        <br />Orecchiette, Pork Sugo, Parmesan $13<br />
+                        Linguini, Pancetta, Mushroom, Spinach $14<br />
+                        Risotto, Green Beans, Tomato, Sunny Egg $14.5
+                     </p>
+                     <p><strong>Desserts:</strong>
+                        <br />Town Puddin, Crème Anglaise, Caramel Gelato $7<br />
+                        Apple-Banana Crème Pie $7<br />
+                        Salted Chocolate Pretzel Tart $7<br />
+                        Buttermilk Pannacotta, Manoa Honey $7<br />
+                        Vanilla Bean, Caramel, Chocolate-Hazelnut, or Espresso Gelato $4<br />
+                        Grapefruit-Campari, Lychee, Mango, or Lemon Sorbet $4
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
