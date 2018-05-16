@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Town Menu Page</title>
+      <link rel="stylesheet" href="fonts/stylesheet.css"/>
+   </head>
+   <body>
+      <div id="grad1">
+         <!-- Page Container -->
+         <div id="container">
+            <!-- Welcome message and company logo. -->
+            <center><img src="images/townlogo.PNG" alt="Town Logo"></center>
+            <!-- Navigation -->
+            <nav>
+               <ul>
+                  <li><a href="index.html" style="font-family: 'majesti_bannerbook_italic';">Home</a></li>
+                  <li><a class="active" href="menu.html" style="font-family: 'majesti_bannerbook_italic';">Menu</a></li>
+                  <li><a href="experience.html" style="font-family: 'majesti_bannerbook_italic';">Town Experience</a></li>
+                  <li><a href="contactus.html" style="font-family: 'majesti_bannerbook_italic';">Contact Us</a></li>
+               </ul>
+            </nav>
+            <!-- Menu Container -->
+            <div class="wrapper">
+              <!-- Banner Image -->
+               <center><img src="images/wines.jpg" alt="Wines" width="890" height="200"></center>
+               <!-- Menu Navigation -->
+               <div class="menu">
+                  <h2>
+                     <center style="font-family: 'majesti_bannerbook_italic'; color:white;">Menu</center>
+                  </h2>
+                  <ol>
+                     <dl><a href="menu.html" style="font-family: 'majesti_bannerbook_italic';">Dinner Menu</a></dl>
+                     <dl><a href="menulunch.html" style="font-family: 'majesti_bannerbook_italic';">Lunch Menu</a></dl>
+                     <dl><a href="menucocktails.html" style="font-family: 'majesti_bannerbook_italic';">Cocktails/Beer</a></dl>
+                     <dl><a class="active" href="menuwine.html" style="font-family: 'majesti_bannerbook_italic';">Wine List</a></dl>
+                  </ol>
+                  <!-- Menu Text -->
+                  <div class="menuitems2" style="font-family: athelas, serif; font-style: normal; font-weight: 400; color:white;">
+                     <p><strong>Old World:</strong></p>
+                     <p><strong>Sparkling:</strong><br />
+                        Luretta, Principessa Brut Metodo Classico (Emilia-Romagna, Italy) $38<br />
+                        De Forville, “Cascina Buc,” Moscato d’Asti ’12 (Piedmont, Italy) $39<br />
+                        Bele Casel, Prosecco (Veneto, Italy) $36<br />
+                        Borgoluce, Valdobbiadene Prosecco Superiore DOCG (Veneto, Italy) $38<br />
+                        Pierre Peters Cuvee de Reserve Blanc de Blancs Grand Cru, Champagne (France) $101<br />
+                        Gramona III Lustros Gran Reserva, Cava ’04 (Catalonia, Spain) $75
+                     </p>
+                     <p><strong>Whites:</strong><br />
+                        Terradora di Paolo, Falanghina ’12 (Campania, Italy) $40<br />
+                        Pavese Ermes, Blanc de Morgex et la Salle, Prie Blanc ’11 (Valle D’Aosta, Italy) $60<br />
+                        Poggio Della Costa, Grechetto ’12 (Latium, Italy) $36<br />
+                        Monastero Suore Cistercensi, Coenobium Bianco, Grechetto/Trebbiano/Verdicchio ’11 (Latium) $49<br />
+                        Donnafugata Lighea, Zibibbo ’12 (Pantelleria, Italy) $48<br />
+                        Donnafugata Chiaranda, Chardonnay/Ansonica ’08 (Sicily, Italy) $73<br />
+                        Masseria Falvo 1727 Donna Filomena, Terre di Cosenza DOC,Guarnaccia/Traminer’11(Calabria) $36<br />
+                        Marchetti Verdicchio dei Castelli di Jesi Classico, Verdicchio ’10(Marches,Italy) $35<br />
+                        Argiolas Costamolino, Vermentino ’11 (Sardinia, Italy) $30<br />
+                        Bouchard Pere &amp; Fils, Chardonnay ’10 (Cote d’or, France) $40<br />
+                        Domaine Zind-Humbrecht, Pinot Gris ’11 (Alsace, France) $46<br />
+                        Dirler-Cade, Gewurztraminer ’11 (Alsace, France) $47<br />
+                        Domaine Giachino Apremont,” Jacquere ’12 (Savoy, France) $36<br />
+                        Mont Gravet, Colombard ’12 (Cotes de Gascone, France) $36<br />
+                        Celler del Roure “Cullerot” Blanco, Verdil/Pedro Ximenez/Macabeo/Chardonnay ’11 (Valencia) $36<br />
+                        Rafael Palacios “Sabrego,” Godello ’10 (Valdeorras, Spain) $30<br />
+                        Berroia, Hondarrabi Zuri ’11 (Bizkaiko Txakolina, Spain) $35<br />
+                        Heger, Pinot Gris ’11 (Germany) $40<br />
+                        Joh. Jos. Prüm, Graacher Himmelreich Kabinett, Riesling ’11 (Mosel, Germany) $59<br />
+                        Hans Wirsching KG, Scheurebe ’12 (Franken, Germany) $36<br />
+                        AA Badenhorst Secateurs, Chenin Blanc ’12 (Swartland, South Africa) $30
+                     </p>
+                     <p><strong>Rosé:</strong><br />
+                        Tasca d’Almerita Regaleali Rosé, Nerello Mascalese ’12 (Sicily, Itlay) $36
+                     </p>
+                     <p><strong>Reds:</strong><br />
+                        Vercesi del Castellazzo &#8220;Clà&#8221; Barbera ’11 (Lombardy, Italy) $44<br />
+                        Cesari “Mara”, Valpolicella Superiore Ripasso, Corvina/Rondinella ’10(Veneto,Italy) $40<br />
+                        Le Salette Amarone Classico, Corvina/Rondinella/Croatina ’09 (Veneto, Italy) $100<br />
+                        Marchesi de Frescobaldi Castiglioni, Chianti DOCG ’11 (Tuscany, Italy) $36<br />
+                        Piaggia “Il Sasso,” Carmignana DOCG ’09 (Tuscany, Italy) $77<br />
+                        Sassicaia Guidalberto Toscana IGT, Cabernet Sauvignon/Merlot ’11 (Tuscany, Italy) $95<br />
+                        Fattoria di Magliano “Heba”, Sangiovese/Syrah ’10 (Tuscany, Italy) $48<br />
+                        Sassicaia Bolgheri Sassicaia DOC, Cabernet Sauvignon/Cabernet Franc ’10 (Italy) $299<br />
+                        Cantine Valenti “Norma” Etna Rosso DOC, Nerello Mascalese/Nerello Capuccio’10(Sicily) $36<br />
+                        Cantine Valenti “Puritani,” Nerello Mascalese ’09 (Sicily, Italy) $58<br />
+                        Antica Tenuta Del Nanfro, Frappato ’11 (Sicily, Italy) $50<br />
+                        Il Cancelliere “Gioviano” Aglianico DOC ’08 (Campania, Italy) $48<br />
+                        Il Cancelliere “Nero Ne” Taurasi DOCG ’06 (Campania, Italy) $87<br />
+                        Castello di Neive Santo Stefano Barbaresco, Nebbiolo ’09 (Piedmont, Italy) $115<br />
+                        Castello Dei Rampolla Chianti Classico DOCG, Sangiovese/Cab Sauv/Merlot ’10 (Italy) $62<br />
+                        Elvio Cogno Barolo Ravera DOCG, Lampia/Michet ’08 (Piedmont, Italy) $125<br />
+                        Produttori del Barbaresco Langhe, Nebbiolo ’11 (Piedmont, Italy) $40<br />
+                        Agricola Punica Barrua, Carignano/Cabernet/Merlot IGT ’04 (Sardinia, Italy) $102<br />
+                        Carlo Guerriere Gonzaga, San Leonardo, Cab Sauv/Cab Franc/Merlot ’06 (Italy) $110
+                        Maison Roche de Bellene, Old Vine Pinot Noir ’10 (Burgundy, France) $47<br />
+                        Clos Canon, Saint Emilion Grand Cru, 2nd wine of Chateau Canon, Bordeaux ’07 (France) $90<br />
+                        Domaine de la Janasse, Chateauneuf du Pape, Grenache/Syrah ’08 (Rhone, France) $95<br />
+                        Domaine des Croix, Beaune Pertuisots Premier Cru, Pinot Noir ’07 (France) $115<br />
+                        Chateau Pauillac de Latour, Bordeaux ’06 (Pauillac, France) $138<br />
+                        Chateau Gloria St-Julien, Cab Sauv/Merlot/Cab Franc/Petit Verdot ’09 (Médoc, France) $160
+                        Viña Olvido Reserva, Tempranillo ’07 (Rioja, Spain) $40<br />
+                        Planetes de Nin, Garnacha/Cariñena ’09 (Priorat, Spain) $52<br />
+                        Mas Doix “Salanques”, Garnacha/Cariñena/Syrah/Cabernet Sauvignon ’08 (Priorat) $57<br />
+                        Hacienda Monasterio Reserva, Tempranillo ’07 (Ribera del Duero, Spain) $101<br />
+                        Quinta do Crasto, Reserva Old Vines ’10 (Douro, Portugal) $69
+                     </p>
+                     <p><strong>New World:</strong></p>
+                     <p><strong>Whites:</strong><br />
+                        Siltstone, Pinot Gris ’12 (Willamette Valley, Oregon) $38<br />
+                        Tangent, Albarino ’11 (Edna Valley, California) $30<br />
+                        Fiddlehead Cellars, Sauvignon Blanc ’09 (Santa Ynez Valley, California) $51<br />
+                        Laird Family Estate, Cold Creek Ranch Pinot Grigio ’12 (Carneros, California) $38<br />
+                        Paul Hobbs CrossBarn, Chardonnay ’12 (Sonoma Coast, California) $50
+                     </p>
+                     <p><strong>Reds:</strong><br />
+                        Zuccardi “Serie A”, Malbec ’12 (Mendoza, Argentina) $31<br />
+                        Domus Aurea, Cabernet Sauvignon ’08 (Alto Maipo, Chile) $98<br />
+                        Amalie Robert, Pinot Meunier ’12 (Willamette Valley, Oregon) $62<br />
+                        Ransom “Jigsaw”, Pinot Noir ’12 (Willamette Valley, Oregon) $48<br />
+                        Sineann, Pinot Noir ’10 (Willamette Valley, Oregon) $62<br />
+                        Roco Marsh Estate Vineyard, Pinot Noir ’11 (Yamhill-Carlton, Oregon) $85<br />
+                        Slo Down Wines “Sexual Chocolate,” Syrah/Zinfandel/Petit Sirah ’11 (California) $48<br />
+                        Carol Shelton, Monga Zin Old Vine Zinfandel ’12 (Cucamonga Valley, California) $36<br />
+                        Lincourt, Pinot Noir ’11 (Sta Rita Hills, California) $35<br />
+                        La Follette, Sangiacomo Vineyard, Pinot Noir ’11 (Sonoma Coast, California) $72<br />
+                        The Rule, Cabernet Sauvignon ’11 (Napa Valley, California) $42<br />
+                        Kapcsandy “Endre”, Cabernet Sauvignon ’10 (Napa Valley, California) $100<br />
+                        Obsidian Ridge, Cabernet Sauvignon ’11 (Lake County, California) $42<br />
+                        Ehlers Estate 1886, Cabernet Sauvignon/Cabernet Franc/Merlot/Petit Verdot ’09(Napa Valley) $155<br />
+                        Sine Qua Non Upside Down, Grenache ’09 (Ventura, California) $245
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
