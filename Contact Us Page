@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Town Contact Us Page</title>
+      <link rel="stylesheet" href="fonts/stylesheet.css"/>
+   </head>
+   <body>
+      <div id="grad1">
+         <!-- Page Container -->
+         <div id="container">
+            <!-- Welcome message and company logo. -->
+            <center><img src="images/townlogo.PNG" alt="Town Logo"></center>
+            <!-- Navigation -->
+            <nav>
+               <ul>
+                  <li><a href="index.html" style="font-family: 'majesti_bannerbook_italic';">Home</a></li>
+                  <li><a href="menu.html" style="font-family: 'majesti_bannerbook_italic';">Menu</a></li>
+                  <li><a href="experience.html" style="font-family: 'majesti_bannerbook_italic';">Town Experience</a></li>
+                  <li><a class="active" href="contactus.html" style="font-family: 'majesti_bannerbook_italic';">Contact Us</a></li>
+               </ul>
+            </nav>
+            <!-- Contact info container -->
+            <div class="wrapper">
+               <div class="contact" style="color:white;">
+                  <img src="images/outside.jpg" height= "100%" width="100%" alt="Outside">
+                  <div>
+                     <p style="float: right;"><img src="images/gmap.jpg" height="300px" width="300px" border="1px"></p>
+                     <h1 style="font-family: 'majesti_bannerbook_italic'; margin-left: 10px"> Contact Information</h1>
+                     <p style="font-family: athelas, serif; margin-left: 30px">Phone: xxx-xxx-xxxx</p>
+                     <p style="font-family: athelas, serif; margin-left: 30px">Email: town@xxxxx.com</p>
+                     <p style="font-family: athelas, serif; margin-left: 30px">Address: 3515 Town Lane Point Alto CA 55555</p>
+                     <p style="font-family: athelas, serif; margin-left: 30px">Hours: Mon through Thu 11:30AM to 10:00PM, Fri and Sat 11:00AM to 11:00PM, Sun 5:00PM to 10:00PM </p>
+                  </div>
+                  <div style="clear: right;"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
