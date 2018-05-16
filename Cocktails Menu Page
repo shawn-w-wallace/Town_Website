@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Town Menu Page</title>
+      <link rel="stylesheet" href="fonts/stylesheet.css"/>
+   </head>
+   <body>
+      <div id="grad1">
+         <!-- Page Container -->
+         <div id="container">
+            <!-- Welcome message and company logo. -->
+            <center><img src="images/townlogo.PNG" alt="Town Logo"></center>
+            <!-- Navigation -->
+            <nav>
+               <ul>
+                  <li><a href="index.html" style="font-family: 'majesti_bannerbook_italic';">Home</a></li>
+                  <li><a class="active" href="menu.html" style="font-family: 'majesti_bannerbook_italic';">Menu</a></li>
+                  <li><a href="experience.html" style="font-family: 'majesti_bannerbook_italic';">Town Experience</a></li>
+                  <li><a href="contactus.html" style="font-family: 'majesti_bannerbook_italic';">Contact Us</a></li>
+               </ul>
+            </nav>
+            <!-- Container for menu -->
+            <div class="wrapper">
+              <!-- Banner Image -->
+               <center><img src="images/cocktailsbannercrop.jpg" alt="Cocktails" width="890" height="200"></center>
+               <!-- Menu Navigation -->
+               <div class="menu">
+                  <h2>
+                     <center style="font-family: 'majesti_bannerbook_italic'; color:white;">Menu</center>
+                  </h2>
+                  <ol>
+                     <dl><a href="menu.html" style="font-family: 'majesti_bannerbook_italic';">Dinner Menu</a></dl>
+                     <dl><a href="menulunch.html" style="font-family: 'majesti_bannerbook_italic';">Lunch Menu</a></dl>
+                     <dl><a class="active" href="menucocktails.html" style="font-family: 'majesti_bannerbook_italic';">Cocktails/Beer</a></dl>
+                     <dl><a href="menuwine.html" style="font-family: 'majesti_bannerbook_italic';">Wine List</a></dl>
+                  </ol>
+                  <!-- Menu Text -->
+                  <div class="menuitems2" style="font-family: athelas, serif; font-style: normal; font-weight: 400; color:white;">
+                     <h2>Beer</h2>
+                     <p>Maui Bikini Blond (HI)<br />
+                        Maui Big Swell IPA (HI)<br />
+                        St. Bernardus Tripel (BEL)<br />
+                        St. Bernardus Prior 8 (BEL)<br />
+                        Pacfico Cerveza (MEX)<br />
+                        Samuel Smith Organic Cider (ENG)<br />
+                        Deschutes Black Butte Porter (OR)<br />
+                        Rogue Hazelnut Brown (OR)<br />
+                        Hitachino Classic Ale (JPN)<br />
+                        Hitachino White Ale (JPN)
+                     </p>
+                     <h2>Wines by the Glass</h2>
+                     <p>Bele Casel, Prosecco (Veneto, Italy) 9<br />
+                        “Cullerot,” Macabeo/Malvasia/Pedro/Ximenez/Chardonnay’11 (Valencia, Spain) $9<br />
+                        Trenel, Macon-Villages, Chardonnay ’11 (Burgundy, France) $9<br />
+                        Mont Gravet, Colombard ’12 (Cotes de Gascone, France) $8<br />
+                        Donnafugata “Lighea,” Zibibbo ’12 (Pantelleria, Italy) $12<br />
+                        Terredora diPaolo, Falanghina ’12 (Campania, Italy) $10<br />
+                        Tasca d’Almerita Regaleali Rosé, Nerello Mascalese ‘12 (Sicily, Italy) $9<br />
+                        Terre di San Leonardo, Cabernet Sauvignon/Merlot ’09 (Trentino, Italy) $10<br />
+                        Marchesi de Frescobaldi Castiglioni, Chianti DOCG ’11 (Tuscany, Italy) $9<br />
+                        Il Cancelliere “Gioviano” Aglianico DOC ’08 (Campania, Italy) $11<br />
+                        Bodegas Ateca “Honoro Vera,” Garnacha ’12 (Calatayud, Spain) $8<br />
+                        Ransom “Jigsaw,” Pinot Noir ‘12 (Willamette, Oregon) $12
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
