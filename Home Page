@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <!-- This is the head. It contains the webpage title. -->
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Town Home Page</title>
+      <link rel="stylesheet" href="fonts/stylesheet.css"/>
+   </head>
+   <!-- This is the body. It contains the welcome header and company logo, the mission statement and accompanying paragraph text, and the vision header and accompanying paragraph text. -->
+   <body>
+      <div id="grad1">
+         <!-- Page Container -->
+         <div id="container">
+            <!-- Welcome message and company logo. -->
+            <center><img src="images/townlogo.PNG" alt="Town Logo"></center>
+            <!-- Navigation -->
+            <nav>
+               <ul>
+                  <li><a class="active" href="index.html" style="font-family: 'majesti_bannerbook_italic';">Home</a></li>
+                  <li><a href="menu.html" style="font-family: 'majesti_bannerbook_italic';">Menu</a></li>
+                  <li><a href="experience.html" style="font-family: 'majesti_bannerbook_italic';">Town Experience</a></li>
+                  <li><a href="contactus.html" style="font-family: 'majesti_bannerbook_italic';">Contact Us</a></li>
+               </ul>
+            </nav>
+            <!-- Mission statement header and mission statement. -->
+            <h2 align="center" style="font-family: 'majesti_bannerbook_italic'; color:rgb(65, 57, 61);">Mission Statement:</h2>
+            <p align="center" style="font-family: athelas, serif; font-style: normal; font-weight: 400; color:rgb(190, 30, 45);">
+               To bring quality, style and the wish for good fortune to all of our guests.<br> 
+               We provide a high-end experience through Chinese cuisine.
+            </p>
+            <center><img src="images/diningroom.jpg" width="508" height="339" alt="Dining Room"></center>
+            <!-- Vision header and parapgraph(s) -->
+            <h2 align="center" style="font-family: 'majesti_bannerbook_italic'; color:rgb(65, 57, 61);">Vision:</h2>
+            <p align="center" style="font-family: athelas, serif; font-style: normal; font-weight: 400; color:rgb(190, 30, 45);"> 
+               TOWN combines a variety of chinese cuisine to excite and delight our customers.<br> <br> 
+               Our vision for the future is to create experiential dining that is more than just<br>
+               a night out. We aim to bring quality and luxury across all aspects of our brand.<br><br>
+               The approach of TOWN is to develop our brand with the understanding of both <br>
+               our culture and consumer insights. Within our vision always lives the promise <br>
+               of inspiring creativity, conversation and quality.<br> <br>
+               Our audience is a high-end clientele who values a dining experience. The age <br>
+               range of our customers are from early 30s-60s. We would like them to come <br>
+               back for both personal dining and events.
+            </p>
+            <center><img src="images/foodcont.jpg" alt="Food Containers"></center>
+         </div>
+      </div>
+   </body>
+</html>
