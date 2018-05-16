@@ -1,0 +1,199 @@
+/*Page layout*/  
+html, body {
+    width:  100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+/*Left/Right side gradient bars*/  
+#grad1 { 
+    height: auto;
+    width: auto;
+    background-image: -webkit-linear-gradient(left, rgb(65, 57, 61), rgb(65, 57, 61), white, white, white, white, rgb(65, 57, 61), rgb(65, 57, 61)); 
+    /* For Safari 5.1 to 6.0 */
+    background-image: -o-linear-gradient(left, rgb(65, 57, 61), rgb(65, 57, 61), white, white, white, white, rgb(65, 57, 61), rgb(65, 57, 61));  
+    /* For Opera 11.1 to 12.0 */
+    background-image: -moz-linear-gradient(left, rgb(65, 57, 61), rgb(65, 57, 61), white, white, white, white, rgb(65, 57, 61), rgb(65, 57, 61)); 
+    /* For Fx 3.6 to 15 */
+    background-image: linear-gradient(to right, rgb(65, 57, 61), rgb(65, 57, 61), white, white, white, white, rgb(65, 57, 61), rgb(65, 57, 61));  
+    /* Standard syntax (must be last) */
+      background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+/*Menu Containers*/  
+article {
+	max-width: 890px;
+    margin-left: 170px;
+    margin-right: 170px;
+    padding: 1em;
+    overflow: auto;
+} 
+div.wrapper {
+    margin-left: 170px;
+    margin-right: 170px;
+    padding: 1em;
+    overflow: auto;
+}
+div.menu {
+	max-width: 890px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+    background-color:rgb(65, 57, 61);
+    border: 50px solid rgb(190, 30, 45);    
+}
+div.menuitems {
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    border-right: 1px solid rgb(190, 30, 45);
+}
+div.menuitems2 {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border-right: 1px solid rgb(190, 30, 45);
+}
+/*Contact us Container*/  
+div.contact {
+	max-width: 700px;
+    background-color:rgb(65, 57, 61);
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+    border: 25px solid rgb(190, 30, 45);
+}
+/*Experience Town Container*/  
+div.exp {
+	max-width: 1200px;
+    background-color:rgb(65, 57, 61);
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+    border: 25px solid rgb(190, 30, 45);
+}
+/* Main Navigation Bar*/           
+ul {
+    list-style-type: none;
+    width: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: rgb(65, 57, 61);
+    text-align: center;
+    }
+li {
+    display: inline;
+    }
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 12px;
+    margin-left: 10px;
+    margin-right: 45px;
+    text-decoration: none;
+    }
+li a:hover:not(.active) {
+    background-color: rgb(190, 30, 45);
+    }
+.active {
+    background-color: rgb(190, 30, 45);
+}
+/* Menu Navigation Bar*/ 
+ol {
+    list-style-type: none;
+    width: 480px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: rgb(65, 57, 61);
+    }
+dl {
+    float: left;
+    }
+dl a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 12px;
+    text-decoration: none;
+    }
+dl a:hover:not(.active) {
+    background-color: rgb(190, 30, 45);
+    }
+.active {
+    background-color: rgb(190, 30, 45);
+}
+/*Fonts*/  
+@font-face {
+    font-family: 'majesti_bannerbold';
+    src: url('majesti-banner-bold-webfont.woff2') format('woff2'),
+         url('majesti-banner-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'majesti_bannerbold_italic';
+    src: url('majesti-banner-bolditalic-webfont.woff2') format('woff2'),
+         url('majesti-banner-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'majesti_bannerbook';
+    src: url('majesti-banner-book-webfont.woff2') format('woff2'),
+         url('majesti-banner-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'majesti_bannerbook_italic';
+    src: url('majesti-banner-bookitalic-webfont.woff2') format('woff2'),
+         url('majesti-banner-bookitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'majesti_bannerheavy';
+    src: url('majesti-banner-heavy-webfont.woff2') format('woff2'),
+         url('majesti-banner-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'majesti_bannerheavy_italic';
+    src: url('majesti-banner-heavyitalic-webfont.woff2') format('woff2'),
+         url('majesti-banner-heavyitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'majesti_bannerlight';
+    src: url('majesti-banner-light-webfont.woff2') format('woff2'),
+         url('majesti-banner-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'majesti_bannerlight_italic';
+    src: url('majesti-banner-lightitalic-webfont.woff2') format('woff2'),
+         url('majesti-banner-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'majesti_bannermedium';
+    src: url('majesti-banner-medium-webfont.woff2') format('woff2'),
+         url('majesti-banner-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'majesti_bannermedium_italic';
+    src: url('majesti-banner-mediumitalic-webfont.woff2') format('woff2'),
+         url('majesti-banner-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
