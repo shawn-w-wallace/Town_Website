@@ -1,5 +1,5 @@
 # Town_Website
-School project for graphic design course makeing a website.
+School project for graphic design course making a website.
 
 Utilized Brackets for coding and Cyberduck to push the files to Geocities.
 
